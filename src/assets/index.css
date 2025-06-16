@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+
+@theme {
+  /* @font */
+  --font-jakartaSans-extraBold: PlusJakartaSans-ExtraBold;
+  --font-jakartaSans-bold: PlusJakartaSans-Bold;
+  --font-jakartaSans-semiBold: PlusJakartaSans-SemiBold;
+  --font-jakartaSans-medium: PlusJakartaSans-Medium;
+  --font-jakartaSans-regular: PlusJakartaSans-Regular;
+  --font-jakartaSans-light: PlusJakartaSans-Light;
+}
