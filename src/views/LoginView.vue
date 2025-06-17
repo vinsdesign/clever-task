@@ -43,7 +43,7 @@ import ButtonPrimary from '@/components/ButtonPrimary.vue'
             <InputComponent
               id="email"
               type="text"
-              classname="text-sm text-dark-gray px-5 py-3 w-full"
+              classname="text-sm text-dark-gray px-5 py-3 w-full font"
               placeholder="Email"
             />
             <InputComponent
@@ -61,7 +61,7 @@ import ButtonPrimary from '@/components/ButtonPrimary.vue'
               >
               <a href="#" class="underline">Forget Password</a>
             </div>
-            <ButtonPrimary classname="py-2 text-white text-sm mt-5">Login</ButtonPrimary>
+            <ButtonPrimary classname="py-2 text-white text-sm mt-5"> Login </ButtonPrimary>
             <p class="text-sm text-dark flex justify-center gap-1">
               New to Clevertask? <a href="#" class="underline">Register</a>
             </p>
