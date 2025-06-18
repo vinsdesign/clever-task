@@ -13,4 +13,7 @@
   --color-light-gray: #f9f9f9;
   --color-dark-gray: #797979;
   --color-dark: #363636;
+
+  /* screen */
+  --breakpoint-xs: 320px;
 }
