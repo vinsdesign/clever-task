@@ -12,10 +12,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <button
-    :type="type"
-    :class="['border border-dark bg-dark rounded-md cursor-pointer', props.classname]"
-  >
+  <button :type="type" :class="['border border-dark rounded-full cursor-pointer', props.classname]">
     <slot></slot>
   </button>
 </template>

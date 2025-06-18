@@ -14,7 +14,10 @@ const props = defineProps({
 <template>
   <button
     :type="type"
-    :class="['border border-dark bg-dark rounded-md cursor-pointer', props.classname]"
+    :class="[
+      'border border-dark bg-transparent hover:bg-dark rounded-md ease-in duration-300 cursor-pointer',
+      props.classname,
+    ]"
   >
     <slot></slot>
   </button>
